@@ -4,6 +4,7 @@ build-job:
     - echo "Hello, $GITLAB_USER_LOGIN!"
     - echo "Running..."
     - sleep 5
+    - exit 1
     - echo "Finished!"
   tags:
     - oslic
