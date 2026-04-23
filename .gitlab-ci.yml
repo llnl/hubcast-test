@@ -1,6 +1,7 @@
-id_tokens:
-  SITE_ID_TOKEN:
-    aud: https://lc.llnl.gov/gitlab
+default:
+  id_tokens:
+    SITE_ID_TOKEN:
+      aud: https://lc.llnl.gov/gitlab
 
 test-job:
   stage: build
