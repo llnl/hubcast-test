@@ -1,0 +1,14 @@
+id_tokens:
+  SITE_ID_TOKEN:
+    aud: https://lc.llnl.gov/gitlab
+
+test-job:
+  stage: build
+  tags:
+    - oslic
+    - shell
+  script:
+    - echo "Hello, $GITLAB_USER_LOGIN!"
+    - echo "Running..."
+    - sleep 10
+    - echo "Finished!"
