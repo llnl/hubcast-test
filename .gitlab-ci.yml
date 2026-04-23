@@ -5,3 +5,7 @@ build-job:
     - echo "Running..."
     - sleep 5
     - echo "Finished!"
+  tags:
+    - oslic
+    - shell
+
