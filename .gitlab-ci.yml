@@ -1,0 +1,8 @@
+stages:
+  - test
+
+see if a ci job runs:
+  stage: test
+  script:
+    - hostname
+    - uname -a
