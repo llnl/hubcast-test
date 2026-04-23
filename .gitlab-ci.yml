@@ -8,4 +8,7 @@ build-job:
   tags:
     - oslic
     - shell
+  id_tokens:
+    SITE_ID_TOKEN:
+      aud: https://lc.llnl.gov/gitlab
 
