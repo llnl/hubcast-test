@@ -1,6 +1,6 @@
 # hubcast-test
 
-Testing https://github.com/llnl/hubcast
+Testing https://github.com/llnl/hubcast app
 
 
 ## License
