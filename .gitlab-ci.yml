@@ -11,6 +11,5 @@ test-job:
   script:
     - echo "Hello, $GITLAB_USER_LOGIN!"
     - echo "Running..."
-    - echo "Matt! This is Hubcast!!"
     - sleep 10
     - echo "Finished!"
