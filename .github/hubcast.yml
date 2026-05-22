@@ -1,6 +1,7 @@
 Repo:
   dest_org: scott112
   dest_name: hubcast-test
+  create_mr: true
   check_types:
     - pipeline
     - jobs
