@@ -16,3 +16,17 @@ test-job:
     - echo "Running..."
     - sleep 10
     - echo "Finished!"
+
+test-job-2:
+  stage: build
+  tags:
+    - oslic
+    - shell
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  script:
+    - echo "Hello, $GITLAB_USER_LOGIN!"
+    - echo "Running..."
+    - sleep 10
+    - echo "Finished!"
