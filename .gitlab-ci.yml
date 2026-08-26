@@ -28,5 +28,5 @@ test-job-2:
   script:
     - echo "Hello, $GITLAB_USER_LOGIN!"
     - echo "Running..."
-    - sleep 15
+    - sleep 10
     - echo "Finished!"
